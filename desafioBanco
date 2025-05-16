@@ -1,0 +1,24 @@
+package co.caua;
+
+import java.util.Scanner;
+
+public class desafioDio {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nome completo: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Digite o numero da agencia: ");
+        String Agencia = scanner.nextLine();
+
+        System.out.println("digite o numero da conta: ");
+        int numeroConta = scanner.nextInt();
+
+        System.out.println("digite seu saldo: ");
+        double saldo = scanner.nextDouble();
+
+        System.out.println("Ola "+ nome+" Obrigado por criar uma conta em nosso banco! sua Agencia é " +Agencia
+        +", sua conta é " + numeroConta+" e seu saldo é "+ saldo+ " ja está disponivel para saque");
+
+    }
+}
